@@ -1,8 +1,14 @@
-import AirbnbLog from '../images/Airbnb_logo.png'
+import CarbLog from '../images/abdie11190600028.jpg'
+
 export default function Navbar() {
     return (
         <nav>
-            <img src={AirbnbLog} className="logo-nav" />
+            <img src={CarbLog} className="logo-nav" />
+            <ul>
+                <li>home</li>
+                <li>contact</li>
+                <li className='dis'>Login</li>
+            </ul>
         </nav>
     )
 }
